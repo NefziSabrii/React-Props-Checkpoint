@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Profile from "./profile/component/Profile.js"
 import './App.css';
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="divp">
+      <Profile
+        fullName="Nefzi Sabri"
+        bio="developper"
+        profession="Full stack  Developer"
+        handleName={() => alert("My Name is Nefzi Sabri")}
+      >
+        <img
+          src="https://st2.depositphotos.com/1104517/11965/v/950/depositphotos_119659092-stock-illustration-male-avatar-profile-picture-vector.jpg"
+          alt="profile image"
+        />
+      </Profile>
     </div>
   );
 }

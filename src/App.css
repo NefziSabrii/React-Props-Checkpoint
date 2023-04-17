@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin-left: 150px;
+  justify-content: center;
+  
 }
 
 .App-logo {
@@ -22,6 +25,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-left: 150px;
+  justify-content: center;
 }
 
 .App-link {
@@ -35,4 +40,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+img {
+  width: 70px;
+}
+.divp{
+  border: "5px solid black";
+  margin-left: 45%;
+  width: 400px;
+  margin-top: 70px;
+  
 }
